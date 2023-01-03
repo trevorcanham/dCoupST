@@ -14,7 +14,7 @@ Basic operation: select source folder (1) -> select source file from drop down (
 
 Further features and specifications are explained below:
 
-!(readmeGUI.png)
+!(/readmeGUI.png)
 
 1. Source, target, working folder - open file browser to select directories for source, target, and working images
 2. file drop-down - select source, target, and working images
