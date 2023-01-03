@@ -1,0 +1,157 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="4216934642" file="/Users/upf/Desktop/trevor/admire/matlab/dCoupST/dCoupSTplus.prj" location="/Users/upf/Desktop/trevor/admire/matlab/dCoupST" name="dCoupSTplus" preferred-package-location="/Users/upf/Desktop/trevor/admire/matlab/dCoupST/dCoupSTplus/for_redistribution" preferred-package-type="package.type.app" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>dCoupST</param.appname>
+    <param.icon>${PROJECT_ROOT}/dCoupSTplus_resources/icon.icns</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/dCoupSTplus_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/dCoupSTplus_resources/icon_32.png</file>
+      <file>${PROJECT_ROOT}/dCoupSTplus_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/dCoupSTplus_resources/icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Trevor D. Canham</param.authnamewatermark>
+    <param.email>tcanham@yorku.ca</param.email>
+    <param.company>York University, Ontario, Canada</param.company>
+    <param.summary>Decoupled Features for Photo-realistic Style Transfer</param.summary>
+    <param.description>A photorealistic style transfer method for image and video that is based on vision science principles and on a recent mathematical formulation for the statistical decoupling of features. The novel aspects of our approach include matching moments of higher order than in common style transfer approaches, and matching the power spectrum so as to transfer as well the ’level of detail’ between source and target. By loading a source and target image, a transform is derived which can be applied to another "working" image. The color transfer can also be saved as a 3DLUT in the .cube format.</param.description>
+    <param.screenshot>/Users/upf/Desktop/splash.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>/York_University,_Ontario,_Canada/dCoupST/</param.installpath.string>
+    <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes>In the following directions, replace MR/v910 by the directory on the target machine where MATLAB is installed, or MR by the directory where the MATLAB Runtime is installed.
+
+If the environment variable DYLD_LIBRARY_PATH is undefined, set it to the following string:
+
+MR/v910/runtime/maci64:MR/v910/sys/os/maci64:MR/v910/bin/maci64
+
+If it is defined, set it to the following:
+
+${DYLD_LIBRARY_PATH}:MR/v910/runtime/maci64:MR/v910/sys/os/maci64:MR/v910/bin/maci64</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}/dCoupSTplus/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/dCoupSTplus/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/dCoupSTplus/for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}/dCoupSTplus</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/dCoupSTplus.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/compute_f3_n_f4_n_f5_n_f6_of_normalized_x_BP.m</file>
+      <file>${PROJECT_ROOT}/compute_f3_n_f4_n_f5_of_normalized_x_BP.m</file>
+      <file>${PROJECT_ROOT}/compute_f3_n_f4_of_normalized_x_BP.m</file>
+      <file>${PROJECT_ROOT}/compute_f3_of_normalized_x_BP.m</file>
+      <file>${PROJECT_ROOT}/fastOrthoKurtosis.m</file>
+      <file>${PROJECT_ROOT}/fastOrthoKurtosisLut.m</file>
+      <file>${PROJECT_ROOT}/function_transfer_decoupled_moments_F7control.m</file>
+      <file>${PROJECT_ROOT}/generate_filters_n_ref_values_BP2.m</file>
+      <file>${PROJECT_ROOT}/grad_n.m</file>
+      <file>${PROJECT_ROOT}/impose_n_measure_features_reverse.m</file>
+      <file>${PROJECT_ROOT}/impose_orthofilters_BP2.m</file>
+      <file>${PROJECT_ROOT}/mainControlST.m</file>
+      <file>${PROJECT_ROOT}/mu3_central.m</file>
+      <file>${PROJECT_ROOT}/myEvent_n.m</file>
+      <file>${PROJECT_ROOT}/normalize_n_measure_orthofilters_BP2.m</file>
+      <file>${PROJECT_ROOT}/toggle.m</file>
+      <file>/Users/upf/Desktop/trevor/architect/matlab/utilityCodes/LoadGamuts.m</file>
+      <file>/Users/upf/Desktop/trevor/architect/matlab/utilityCodes/natsort.m</file>
+      <file>/Users/upf/Desktop/trevor/architect/matlab/utilityCodes/natsortfiles.m</file>
+      <file>/Users/upf/Desktop/trevor/classes/HCI/finalProject/matlab/utility/ConvertLMStoIPT.m</file>
+      <file>/Users/upf/Desktop/trevor/classes/HCI/finalProject/matlab/utility/ConvertLinearSpace.m</file>
+      <file>/Users/upf/Desktop/trevor/classes/HCI/finalProject/matlab/utility/ConvertRGBtoXYZ.m</file>
+      <file>/Users/upf/Desktop/trevor/classes/HCI/finalProject/matlab/utility/ConvertXYZtoIPT.m</file>
+      <file>/Users/upf/Desktop/trevor/classes/HCI/finalProject/matlab/utility/ConvertXYZtoLMS.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/dCoupSTplus/for_testing" name="splash.png" optional="false">/Users/upf/Desktop/trevor/admire/matlab/dCoupST/dCoupSTplus/for_testing/splash.png</file>
+      <file location="${PROJECT_ROOT}/dCoupSTplus/for_testing" name="readme.txt" optional="true">/Users/upf/Desktop/trevor/admire/matlab/dCoupST/dCoupSTplus/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/dCoupSTplus/for_testing" name="run_dCoupST.sh" optional="false">/Users/upf/Desktop/trevor/admire/matlab/dCoupST/dCoupSTplus/for_testing/run_dCoupST.sh</file>
+      <file location="${PROJECT_ROOT}/dCoupSTplus/for_testing" name="dCoupST.app" optional="false">/Users/upf/Desktop/trevor/admire/matlab/dCoupST/dCoupSTplus/for_testing/dCoupST.app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2021a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.14.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
