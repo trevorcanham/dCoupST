@@ -51,9 +51,9 @@ Otherwise, the function can be populated with the following values.
 * params.moms - [5x3 double] with columns linked to mean, variance, skew, kurtosis, diffusion respectively, and rows associated with I,P and T color channels. Mean, variance, skew and kurtosis should be 0 or 1 values indicating on/off for the transfer. Diffusion channels can be fed anything in the 0-1 range.
 * params.depth - [integer] single-channel bit depth value (8, 10, 12, etc.)
 * params.resizeF - [double] resize value in 0-1 range
-* params.sCSin - [string within cell] 'sRGB' (default), 'BT.2020', 'ProPhoto', 'ARRI'
+* params.sCSin - [string within cell] source encoding color space ('sRGB' [default], 'BT.2020', 'ProPhoto', 'ARRI')
 * params.sGamIn - [double] source encoding non-linearity (1.0, 2.2, 2.4, etc.)
-* params.rCSin - [string within cell] 'sRGB' (default), 'BT.2020', 'ProPhoto', 'ARRI'
+* params.rCSin - [string within cell] target encoding color space ('sRGB' [default], 'BT.2020', 'ProPhoto', 'ARRI')
 * params.rGamIn - [double] target encoding non-linearity (1.0, 2.2, 2.4, etc.)
-* params.csOut - [string within cell] 'sRGB', 'BT.2020', 'DCI.P3.D65', 'DCI.P3.D50'
-* params.gamOut - [double] display non-linearity (1.0, 2.2, 2.4, etc.)
+* params.csOut - [string within cell] output encoding color space ('sRGB', 'BT.2020', 'DCI.P3.D65', 'DCI.P3.D50')
+* params.gamOut - [double] output encoding non-linearity (1.0, 2.2, 2.4, etc.)
