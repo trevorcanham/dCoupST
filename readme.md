@@ -17,10 +17,10 @@ Further features and specifications are explained below:
 ![](readmeGUI.png)
 
 1. Source, target, working folder - open file browser to select directories for source, target, and working images
-2. file drop-down - select source, target, and working images
-3. color space drop-down - select color encoding (options: sRGB (default), BT.2020, ProPhoto, ARRI (AWG))*If you don't know, continute with default.
+2. File drop-down - select source, target, and working images
+3. Color Space drop-down - select color encoding (options: sRGB (default), BT.2020, ProPhoto, ARRI (AWG))*If you don't know, continute with default.
 4. EOTF drop-down - select non-linear transfer function (options: 2.2 (default), 2.4, 1 (linear))*
-5. crop source/target/working - Specify an image region to derive a transfer between source and target images, or a specific region in the working image to apply the transfer
+5. Crop Source/Target/Working - Specify an image region to derive a transfer between source and target images, or a specific region in the working image to apply the transfer
 6. Moment drop-down, color channel boxes - Select features to transfer. For each statistical moment (mean - average value, variance - contrast, skew - high key/low key, kurtosis - black/white concentration) the user can select the specific channels to transfer (I - intensity/brightness, P - protan or red/green axis, or T - tritan or blue/yellow axis). A moment can only be transferred for a color channel if all moments above it on the list are also transferred for that channel. So if the user selects "I" for Kurtosis, "I" will automatically be checked for Skew, Variance, and Mean. If "P" is de-selected for Mean, "P" will be automatically de-selected for Variance, Skew and Kurtosis.
 7. Diffusion slider - Linear adjustment of diffusion transfer. If set to one, the diffusion transfer matching source to target is applied. If set to zero, only the color transfer is applied. The slider can be adjusted anywhere in the 0-1 range to blend between the diffusion+color transfer and the color only transfer and the resulting image will be shown in real time.
 8. Bit Depth - set bit depth of images for one color channel. Most images should be 8 bit, but if the images are showing up dim or black, try 10,12, or 16. Similarly, if images are showing up pure white or blown out, try a lower bit depth.
