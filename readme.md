@@ -2,7 +2,8 @@
 
 ## Standalone Application
 MATLAB users can simply run the standalone application by downloading the repository and running `dCoupSTplus.mlapp`.
-To install the standalone application, first download the MATLAB Runtime library (R2021a v9.10) for your operating system [here](https://www.mathworks.com/products/compiler/mcr/index.html), and run the program from the directory corresponding with your OS with the following commands:
+
+Users who do not have MATLAB can install the standalone application, by extracting `macOS/dCoupST.zip` first download the MATLAB Runtime library (R2021a v9.10) for your operating system [here](https://www.mathworks.com/products/compiler/mcr/index.html), and run the program from the directory corresponding with your OS with the following commands:
 
 MacOS/Linux >>
 ```
