@@ -1,6 +1,7 @@
 # dCoupST
 
 ## Standalone Application
+
 To install the standalone application, first download the MATLAB Runtime library (R2021a v9.10) for your operating system [here](https://www.mathworks.com/products/compiler/mcr/index.html), and run the program from the directory corresponding with your OS with the following commands:
 
 MacOS/Linux >>
@@ -38,7 +39,7 @@ Further features and specifications are explained below:
 20. Source, target and result histograms - Pixel counts per code value for red, green, and blue channels of source, target, and result images
 
 ## Source Code
-Users can interact with the matlab code directly by calling mainControlST.m 
+MATLAB Users can interact with the code directly by calling mainControlST.m 
 ```
 [out,moments,kernel,lut] = mainControlST(W,S,R,params)
 ```
