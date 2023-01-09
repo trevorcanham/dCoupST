@@ -1,0 +1,7 @@
+copyright.txt
+The test images provided here were uploaded to flickr and licensed under CC-BY 2.0 by the following artists:
+source.jpg: Bill Damon
+target.jpg: Kristoffer Trolle
+working.jpg: Gabriel Kaplan
+https://creativecommons.org/licenses/by/2.0/
+
