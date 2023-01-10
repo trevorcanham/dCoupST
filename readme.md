@@ -3,16 +3,7 @@
 ## Standalone Application
 MATLAB users can simply run the standalone application by downloading the repository and running `dCoupSTplus.mlapp`.
 
-Users who do not have MATLAB can install the standalone application, by extracting `macOS/dCoupST.zip`, downloading the MATLAB Runtime library (R2021a v9.10) corresponding to their operating system [here](https://www.mathworks.com/products/compiler/mcr/index.html), and run the program from the directory corresponding with their OS with the following commands:
-
-MacOS/Linux >>
-```
-./run dCoupST.sh <mcr_directory>
-```
-
-Windows >> 
-
-
+Users who do not have MATLAB can install the standalone application, by downloading the folder corresponding to their OS, extracting `MyAppInstaller_web`, running it, and following the onscreen prompts.
 Basic operation: select source folder (1) -> select source file from drop down (2) -> select target folder (1) -> select target file from drop down (2) -> compute results (13) -> save result (14)
 
 Further features and specifications are explained below:
