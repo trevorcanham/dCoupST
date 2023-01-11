@@ -1,4 +1,4 @@
-function mu3 = mu3_central(t,x);
+function mu3 = mu3_central(t,x)
 
 %mu3 = mu3_central(t,x);
 % Given the vector x (signal) and the scalar t, it computes the third centered moment of x./(1 -t*x)
