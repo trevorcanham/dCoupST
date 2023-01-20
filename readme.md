@@ -1,5 +1,7 @@
 # dCoupST
-Code base for "Using Decoupled Features for Photo-realistic Style Transfer" by Trevor D. Canham, Adrián Martín, Marcelo Bertalmío and Javier Portilla. 
+Code base for "Using Decoupled Features for Photo-realistic Style Transfer" by Trevor D. Canham, Adrián Martín, Marcelo Bertalmío and Javier Portilla.
+
+
 [Paper](https://arxiv.org/abs/2212.02953) // [Supplementary Material](https://drive.google.com/drive/folders/15nKBljq0CCA9pm6i1fcISFSUvuYoBhac?usp=share_link) // [Workflow Demo]() // [Decoupled Features Project](https://www.researchgate.net/project/Nested-Normalizations-for-Decoupling-Global-Features)
 
 ## Standalone Application
