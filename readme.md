@@ -7,7 +7,16 @@ Code base for "Using Decoupled Features for Photo-realistic Style Transfer" by T
 ## Standalone Application
 MATLAB users can simply run the standalone application by downloading the repository and running `dCoupSTplus.mlapp`.
 
+After running the installer, MacOS and Windows users can run the application directly. Linux users should extract `shFile.zip` and run the program with the following command:
+
+`./run_dCoupST.sh <mcr_directory>`
+
+Where `<mcr_directory>` is the path to the installed matlab runtime library.
+
 Users who do not have MATLAB can install the standalone application, by downloading the folder corresponding to their OS, extracting `MyAppInstaller_web`, running it, and following the onscreen prompts.
+
+Linux users 
+
 Basic operation: select source folder (1) -> select source file from drop down (2) -> select target folder (1) -> select target file from drop down (2) -> compute results (13) -> save result (14)
 
 Further features and specifications are explained below:
