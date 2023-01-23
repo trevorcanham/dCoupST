@@ -47,7 +47,7 @@ MATLAB Users can interact with the code directly by calling mainControlST.m
 ```
 [out,moments,kernel,lut] = mainControlST(W,S,R,params)
 ```
-Inputs: full range (0-max value for given bit-depth), double n x m x 3 image arrays W, S, and R corresponding to working, source, and target images, and struct 'params'. This is best populated by running the standalone application described above or dCoupSTplus.mlapp, setting all of the parameters in the GUI, and pressing save result. This saves the resulting image as well as a file params.mat, which can be loaded in MATLAB and passed to the mainControlST function.
+Inputs: full range (0-max value for given bit-depth), double n x m x 3 image arrays W, S, and R corresponding to working, source, and target images, and struct 'params'. This is best populated by running the standalone application described above or `dCoupSTplus.mlapp`, setting all of the parameters in the GUI, and pressing save result. This saves the resulting image as well as a file params.mat, which can be loaded in MATLAB and passed to the mainControlST function. Alternatively, users can edit the fields in the `images/params.mat`
 
 Otherwise, the function can be populated with the following values.
 
